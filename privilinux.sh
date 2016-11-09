@@ -1,7 +1,11 @@
 #!/bin/bash
+#
+# Warning: Uncommenting certain commands will dig further but 
+# the list will be extrenuous unless the piping/output is managed properly.
+#
 
-echo -e "\nPrivilege Escalation Technique Script\n"
-
+echo -e "\nPrivilinux: Post X enumeration script\n"
+read
 # Current User
 echo -e "\nCurrent User:"
 whoami
