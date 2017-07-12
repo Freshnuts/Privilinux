@@ -47,6 +47,12 @@ grep -Rnw --include="*.php" 'password' /var/www/
 grep -Rnw --include="*.php" 'DB_PASS' /var/www/
 grep -Rnw --include="*.php" 'PASSWORD' /var/www/
 
+# Literal Strings in ANY file
+grep -rF 'PASSWORD' /home
+grep -rF 'USERNAME' /home
+grep -rF 'PASSWORD' /var/www/html
+grep -rf 'USERNAME' /var/www/html
+
 # root,home
 echo -e "\nRoot & Home"
 echo -e "===========\n"
